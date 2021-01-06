@@ -6,6 +6,7 @@ function setup() {
 }
 
 function draw() {
+  fullscreen(true);
   background(255,255,128);
   fill(200, 200, 200);
   noStroke();
@@ -23,5 +24,6 @@ function draw() {
  }
 
 function windowResized(){
+  
   resizeCanvas(windowWidth, windowHeight);
 }
